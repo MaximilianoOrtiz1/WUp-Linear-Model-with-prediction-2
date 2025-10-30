@@ -81,6 +81,10 @@ summary.lm(model.2)
 ```
 
 
+### Predict Target Point of Model 2
 
+```{r}
+predict(model.2,target,interval =c("prediction"))
+```
 
 
