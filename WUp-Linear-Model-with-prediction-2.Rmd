@@ -143,11 +143,15 @@ predict(model.3,target,interval =c("prediction"))
 anova(model.1,model.3) 
 ```
 
-Our P value was 0.000004994 which is very small. Which tells us that model 3 is better than model 1 in a significant difference. 
+Our P-value was 0.000004994 which is very small. Which tells us that model 3 is better than model 1 in a significant difference. 
 
 
+###Model2~Model3
 
+```{r}
+anova(model.2,model.3) 
+```
 
-
+Our P-value for model 2 and 3 (0.000000001495) is smaller than model 1 and 3 (0.000004994). Which tells us that model 3 is the most accurate model out of the 3. 
 
 
