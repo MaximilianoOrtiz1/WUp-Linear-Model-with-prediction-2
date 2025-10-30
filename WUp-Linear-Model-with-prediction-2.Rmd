@@ -109,8 +109,12 @@ cor(SIMS~ARM+GRIP,data=data)
 The correlation number for model 3 (SIM~ARM+GRIP) is higher compared to model 2 (SIM~GRIP) and model 1 (SIM~ARM), so the correlation is better using both (ARM+GRIP) models than just 1 (either ARM or GRIP).
 
 
+###Inferintal Results Model 3 
 
-
+```{r}
+model.3 <- lm(SIMS~ARM+GRIP,data=data)
+summary.lm(model.3)
+```
 
 
 
