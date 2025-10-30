@@ -23,3 +23,13 @@ basicNN + geom_point() + ggtitle("SIMS vs ARM") +theme (plot.title = element_tex
 
 ```
 
+
+###Numerical Results
+
+```{r}
+cor(SIMS~ARM,data=data)
+```
+
+
+
+
