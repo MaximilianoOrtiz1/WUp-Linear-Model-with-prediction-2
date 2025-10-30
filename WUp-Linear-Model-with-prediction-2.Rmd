@@ -133,3 +133,21 @@ predict(model.3,target,interval =c("prediction"))
 ```
 
 
+### Anova Test for Models 
+
+
+
+###Model1~Model3
+
+```{r}
+anova(model.1,model.3) 
+```
+
+Our P value was 0.000004994 which is very small. Which tells us that model 3 is better than model 1 in a significant difference. 
+
+
+
+
+
+
+
