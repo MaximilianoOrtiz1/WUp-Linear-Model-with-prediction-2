@@ -95,5 +95,22 @@ basicNN + geom_point () + ggtitle("SIMS-GRIP") + theme(plot.title = element_text
 ```
 
 
+##Model3: Sims~ARM+GRIP
+
+
+
+
+###Numerical Results Model 3 
+
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
+
+
+
+
+
+
+
 
 
